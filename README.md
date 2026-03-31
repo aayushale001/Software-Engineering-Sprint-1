@@ -1,81 +1,29 @@
-# Software Engineering Sprint 1
+# Software-Engineering-Sprint-1
 
 ## Overview
 
-This repository contains the Sprint 1 requirements for a patient portal project.
-The current focus is on documenting user stories and acceptance criteria for key
-patient-facing features rather than shipping application code.
+This repository contains the Sprint 1 planning and design material for the patient portal project.
 
-## Project Goal
-
-The project is centered on a patient portal that allows patients to:
-
-- register and sign in securely
-- complete and maintain their profile
-- browse doctors and available appointment slots
-- hold, confirm, and cancel appointments
-- view a dashboard summary after signing in
-- view and manage medical record entries
-
-## Sprint 1 Scope
-
-Sprint 1 currently includes 8 user stories with a combined total of 45 story
-points.
-
-| Story | Title | Story Points |
-| --- | --- | ---: |
-| 1 | Register and sign in securely | 8 |
-| 2 | Complete profile | 5 |
-| 3 | Browse doctors and slots | 5 |
-| 4 | Hold and confirm appointment | 8 |
-| 9 | View dashboard summary | 3 |
-| 10 | Cancel appointment | 3 |
-| 11 | View medical records | 5 |
-| 12 | Manage medical record entries | 8 |
-
-## Feature Areas
-
-- Authentication and onboarding: user stories 1 and 2
-- Appointment discovery and booking: user stories 3 and 4
-- Dashboard and navigation: user story 9
-- Appointment management: user story 10
-- Medical records access and maintenance: user stories 11 and 12
+Sprint 1 is focused on defining the product direction rather than building the final application. It includes user stories, acceptance criteria, and visual design references that guide the implementation work planned for Sprint 2 and Sprint 3.
 
 ## Repository Structure
 
-```text
-Software-Engineering-Sprint-1/
-├── README.md
-└── user-stories/
-    ├── story-01-register-and-sign-in-securely/
-    │   └── story.md
-    ├── story-02-complete-profile/
-    │   └── story.md
-    ├── story-03-browse-doctors-and-slots/
-    │   └── story.md
-    ├── story-04-hold-and-confirm-appointment/
-    │   └── story.md
-    ├── story-09-view-dashboard-summary/
-    │   └── story.md
-    ├── story-10-cancel-appointment/
-    │   └── story.md
-    ├── story-11-view-medical-records/
-    │   └── story.md
-    └── story-12-manage-medical-record-entries/
-        └── story.md
-```
+- [user-stories](./user-stories): detailed patient portal user stories and acceptance criteria.
+- [design-reference](./design-reference): curated design reference pages that explain the visual direction of the portal.
+- [assets](./assets): raw screenshots and supporting files used by the design reference documentation.
 
-## Story Format
+## Design Approach
 
-Each `story.md` file includes:
+Formal wireframes were not available for this sprint, so the project uses polished UI screenshots as design references. These screenshots are included to communicate the intended layout, flows, and look and feel of the portal.
 
-- the user story statement
-- the estimated story points
-- acceptance criteria from the patient perspective
+The screenshots in this repository should be treated as target UI references for future implementation, not as proof of completed code in Sprint 1.
 
-## Current State
+## Sprint 1 Scope
 
-- The repository is currently a documentation-first sprint backlog.
-- The included stories define the expected behavior for the patient portal.
-- Application code, implementation tasks, and testing artifacts are not yet
-  included in this repository.
+Sprint 1 covers:
+- defining patient-focused user stories
+- documenting acceptance criteria
+- organizing planning material for later implementation
+- capturing design references for the portal experience
+
+Implementation and production code are expected to live in the later sprint repositories.
